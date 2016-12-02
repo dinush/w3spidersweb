@@ -40,7 +40,7 @@ License URI: http://themeforest.net/licenses/regular_extended
 /* line 16, ../sass/_typography.scss */
 html,
 body {
-  font-size: 14px;
+  font-size: 16px;
   height: 100%;
 }
 
@@ -60,7 +60,7 @@ body {
 
 /* line 31, ../sass/_typography.scss */
 body {
-  color: #333;
+  color: #000000;
   font-family: "Arimo", sans-serif;
   height: 100%;
   line-height: 1.6;
@@ -257,7 +257,7 @@ a.text-success:hover,
 
 /* line 170, ../sass/_typography.scss */
 .bg-primary {
-  background: #037ac5 !important;
+  background: #009344 !important;
 }
 
 /* line 173, ../sass/_typography.scss */
@@ -401,8 +401,8 @@ hr.margin-top {
 }
 /* line 289, ../sass/_typography.scss */
 .btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary.focus, .btn.btn-primary:active, .btn.btn-primary.active, .open > .btn.btn-primary.dropdown-toggle {
-  background: #0499f7;
-  border-color: #0499f7;
+  background: #00c65c;
+  border-color: #00c65c;
 }
 /* line 300, ../sass/_typography.scss */
 .btn.btn-success:hover, .btn.btn-success:focus, .btn.btn-success.focus, .btn.btn-success:active, .btn.btn-success.active, .open > .btn.btn-success.dropdown-toggle {
@@ -489,8 +489,8 @@ hr.margin-top {
 }
 /* line 418, ../sass/_typography.scss */
 .btn.btn-border.btn-primary, .btn.btn-border.btn-primary .caret {
-  border-color: #037ac5;
-  color: #037ac5;
+  border-color: #009344;
+  color: #009344;
 }
 /* line 423, ../sass/_typography.scss */
 .btn.btn-border.btn-warning, .btn.btn-border.btn-warning .caret {
@@ -823,12 +823,12 @@ textarea.form-control {
 }
 /* line 695, ../sass/_typography.scss */
 .new-checkbox svg polygon {
-  fill: #1e1e1e;
+  fill: #000;
 }
 
 /* line 701, ../sass/_typography.scss */
 .new-checkbox svg polygon {
-  fill: #1e1e1e;
+  fill: #000;
 }
 
 /* line 704, ../sass/_typography.scss */
@@ -847,7 +847,7 @@ textarea.form-control {
 
 /* line 714, ../sass/_typography.scss */
 .new-radio.checked span {
-  background: #1e1e1e;
+  background: #000;
 }
 
 /* line 717, ../sass/_typography.scss */
@@ -2059,7 +2059,7 @@ blockquote small {
 /* line 1651, ../sass/_typography.scss */
 .panel-group .panel.active .panel-heading > .panel-title > a,
 .panel-group .panel.active .panel-heading > .panel-title > a:hover {
-  background-color: #1e1e1e;
+  background-color: #000;
   color: #fff;
 }
 /* line 1656, ../sass/_typography.scss */
@@ -2075,12 +2075,12 @@ blockquote small {
 }
 /* line 1682, ../sass/_typography.scss */
 .panel-group .panel.panel-primary .panel-heading > .panel-title > a {
-  background-color: #037ac5;
+  background-color: #009344;
   color: #fff;
 }
 /* line 1686, ../sass/_typography.scss */
 .panel-group .panel.panel-primary .panel-heading > .panel-title > a:hover {
-  background-color: rgba(3, 122, 197, 0.9);
+  background-color: rgba(0, 147, 68, 0.9);
 }
 /* line 1689, ../sass/_typography.scss */
 .panel-group .panel.panel-primary .panel-heading > .panel-title > a:before, .panel-group .panel.panel-primary .panel-heading > .panel-title > a:after {
@@ -2811,7 +2811,7 @@ a.edit i:before {
 }
 /* line 7, ../sass/_top-bar.scss */
 #top-box .top-box-wrapper {
-  background: #1e1e1e;
+  background: #000;
   min-height: 30px;
   padding: 5px 0;
 }
@@ -3301,7 +3301,7 @@ a.edit i:before {
 }
 /* line 217, ../sass/_header.scss */
 .header .header-wrapper .primary .navbar .navbar-collapse .nav a .item-new.bg-primary .before, .header .header-wrapper .primary .navbar .navbar-collapse .nav a .item-new.bg-primary:before {
-  border-right-color: #037ac5;
+  border-right-color: #009344;
 }
 /* line 221, ../sass/_header.scss */
 .header .header-wrapper .primary .navbar .navbar-collapse .nav a .item-new.bg-warning .before, .header .header-wrapper .primary .navbar .navbar-collapse .nav a .item-new.bg-warning:before {
@@ -3539,7 +3539,7 @@ a.edit i:before {
 }
 /* line 437, ../sass/_header.scss */
 .header .header-wrapper .primary .navbar .navbar-collapse .nav > li.text-primary > a {
-  color: #037ac5;
+  color: #009344;
 }
 /* line 440, ../sass/_header.scss */
 .header .header-wrapper .primary .navbar .navbar-collapse .nav > li.text-success > a {
@@ -3567,7 +3567,7 @@ a.edit i:before {
 }
 /* line 458, ../sass/_header.scss */
 .header .header-wrapper .primary .navbar .navbar-collapse .nav > li.item-primary.item-inverse > a {
-  background: #037ac5;
+  background: #009344;
 }
 /* line 461, ../sass/_header.scss */
 .header .header-wrapper .primary .navbar .navbar-collapse .nav > li.item-success.item-inverse > a {
@@ -3594,7 +3594,7 @@ a.edit i:before {
 .header .header-wrapper .primary .navbar .navbar-collapse .nav > li.item-primary:hover > a,
 .header .header-wrapper .primary .navbar .navbar-collapse .nav .item-primary .sub,
 .header .header-wrapper .primary .navbar .navbar-collapse .nav .item-primary.megamenu > .sub .promo-block {
-  border-color: #037ac5;
+  border-color: #009344;
 }
 /* line 482, ../sass/_header.scss */
 .header .header-wrapper .primary .navbar .navbar-collapse .nav > li.item-success:hover > a,
@@ -3630,7 +3630,7 @@ a.edit i:before {
 .header .header-wrapper .primary .navbar .navbar-collapse .nav .item-primary.item-bg .sub,
 .header .header-wrapper .primary .navbar .navbar-collapse .nav .item-primary.item-bg.parent .sub,
 .header .header-wrapper .primary .navbar .navbar-collapse .nav .item-primary.item-bg.parent:hover > .sub {
-  background: #037ac5;
+  background: #009344;
 }
 /* line 512, ../sass/_header.scss */
 .header .header-wrapper .primary .navbar .navbar-collapse .nav > li.item-success.item-bg:hover > a,
@@ -4181,7 +4181,7 @@ a.edit i:before {
 }
 /* line 980, ../sass/_header.scss */
 .header .search-form .search-submit svg path {
-  fill: #1e1e1e;
+  fill: #000;
 }
 /* line 984, ../sass/_header.scss */
 .header .search-form .search-submit:hover {
@@ -4393,7 +4393,7 @@ a.edit i:before {
 }
 /* line 1174, ../sass/_header.scss */
 .minimized-menu .header-wrapper .primary .navbar .btn-navbar .icon-bar {
-  background: #1e1e1e;
+  background: #000;
   box-shadow: none;
   border-radius: 0;
   height: 3px;
@@ -4483,7 +4483,7 @@ a.edit i:before {
 }
 /* line 1255, ../sass/_header.scss */
 .minimized-menu .header-wrapper .primary .navbar .navbar-collapse .nav .open-sub span {
-  background: #1e1e1e;
+  background: #000;
   display: block;
   height: 2px;
   margin: 17px 0 0 15px;
@@ -4648,7 +4648,7 @@ a.edit i:before {
 }
 /* line 1409, ../sass/_header.scss */
 .minimized-menu .header-wrapper .primary .navbar .navbar-collapse .nav > li.item-primary > a {
-  border-color: #037ac5;
+  border-color: #009344;
 }
 /* line 1412, ../sass/_header.scss */
 .minimized-menu .header-wrapper .primary .navbar .navbar-collapse .nav > li.item-success > a {
@@ -4668,8 +4668,8 @@ a.edit i:before {
 }
 /* line 1424, ../sass/_header.scss */
 .minimized-menu .header-wrapper .primary .navbar .navbar-collapse .nav > li.item-primary.item-bg > a, .minimized-menu .header-wrapper .primary .navbar .navbar-collapse .nav > li.item-primary.item-bg:hover > a, .minimized-menu .header-wrapper .primary .navbar .navbar-collapse .nav > li.item-primary.item-inverse > a, .minimized-menu .header-wrapper .primary .navbar .navbar-collapse .nav > li.item-primary.item-inverse:hover > a {
-  background-color: #037ac5;
-  border-color: #037ac5;
+  background-color: #009344;
+  border-color: #009344;
 }
 /* line 1431, ../sass/_header.scss */
 .minimized-menu .header-wrapper .primary .navbar .navbar-collapse .nav > li.item-success.item-bg > a, .minimized-menu .header-wrapper .primary .navbar .navbar-collapse .nav > li.item-success.item-bg:hover > a, .minimized-menu .header-wrapper .primary .navbar .navbar-collapse .nav > li.item-success.item-inverse > a, .minimized-menu .header-wrapper .primary .navbar .navbar-collapse .nav > li.item-success.item-inverse:hover > a {
@@ -5430,8 +5430,8 @@ a.edit i:before {
 }
 /* line 67, ../sass/_sliders.scss */
 .slider .slider-nav {
-  background-color: #1e1e1e;
-  background-color: rgba(30, 30, 30, 0.97);
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.97);
   bottom: 0;
   position: absolute;
   right: 15px;
@@ -5577,12 +5577,12 @@ a.edit i:before {
 }
 /* line 193, ../sass/_sliders.scss */
 .progressive-slider-two .pagination a {
-  background: #1e1e1e;
-  background: rgba(30, 30, 30, 0.5);
+  background: #000;
+  background: rgba(0, 0, 0, 0.5);
 }
 /* line 197, ../sass/_sliders.scss */
 .progressive-slider-two .pagination a:hover, .progressive-slider-two .pagination a.selected {
-  background: #1e1e1e;
+  background: #000;
 }
 /* line 203, ../sass/_sliders.scss */
 .progressive-slider-two .slider-banners {
@@ -5757,8 +5757,8 @@ a.edit i:before {
 }
 /* line 350, ../sass/_sliders.scss */
 .slider.rs-slider .tparrows {
-  background: #1e1e1e;
-  background: rgba(30, 30, 30, 0.5);
+  background: #000;
+  background: rgba(0, 0, 0, 0.5);
   -webkit-border-radius: 5px;
   border-radius: 5px;
   cursor: pointer;
@@ -6227,7 +6227,7 @@ a.edit i:before {
 }
 /* line 143, ../sass/_sidebar.scss */
 .sidebar .menu li.active > a {
-  background-color: #1e1e1e;
+  background-color: #000;
   color: #fff;
   transition: all .2s linear;
 }
@@ -6247,7 +6247,7 @@ a.edit i:before {
 }
 /* line 164, ../sass/_sidebar.scss */
 .sidebar .menu li.parent > a .open-sub:before, .sidebar .menu li.parent > a .open-sub:after {
-  background: #1e1e1e;
+  background: #000;
   content: "";
   display: block;
   height: 2px;
@@ -6535,7 +6535,7 @@ a.edit i:before {
 }
 /* line 457, ../sass/_sidebar.scss */
 .sidebar .wishlist .add-cart:hover path {
-  fill: #1e1e1e;
+  fill: #000;
   transition: all .2s linear;
 }
 /* line 466, ../sass/_sidebar.scss */
@@ -6641,8 +6641,8 @@ a.edit i:before {
 }
 /* line 553, ../sass/_sidebar.scss */
 .sidebar .tags a {
-  background: #1e1e1e;
-  background: rgba(30, 30, 30, 0.7);
+  background: #000;
+  background: rgba(0, 0, 0, 0.7);
   border-radius: 2px;
   color: #fff;
   display: block;
@@ -6655,7 +6655,7 @@ a.edit i:before {
 }
 /* line 566, ../sass/_sidebar.scss */
 .sidebar .tags a:hover {
-  background: #1e1e1e;
+  background: #000;
   transition: all .2s linear;
 }
 /* line 574, ../sass/_sidebar.scss */
@@ -6692,7 +6692,7 @@ a.edit i:before {
 }
 /* line 604, ../sass/_sidebar.scss */
 .sidebar .calendar-wrap caption {
-  background: #1e1e1e;
+  background: #000;
   color: #fff;
   font-size: 14px;
   padding: 5px;
@@ -6789,7 +6789,7 @@ a.edit i:before {
 .datepicker table tr td.active:hover,
 .datepicker table tr td.active.disabled,
 .datepicker table tr td.active.disabled:hover {
-  background: #037ac5;
+  background: #009344;
 }
 
 /* line 711, ../sass/_sidebar.scss */
@@ -7021,8 +7021,8 @@ a.edit i:before {
 }
 /* line 183, ../sass/_shop.scss */
 .product .limit-offer {
-  background: #1e1e1e;
-  background: rgba(30, 30, 30, 0.9);
+  background: #000;
+  background: rgba(0, 0, 0, 0.9);
   bottom: 72px;
   color: #fff;
   font-size: 12px;
@@ -7107,8 +7107,8 @@ a.edit i:before {
 }
 /* line 257, ../sass/_shop.scss */
 .product .actions.not-rotation-actions {
-  background: #1e1e1e;
-  background: rgba(30, 30, 30, 0.9);
+  background: #000;
+  background: rgba(0, 0, 0, 0.9);
   bottom: 0;
   left: 0;
   right: 0;
@@ -7183,7 +7183,7 @@ a.edit i:before {
 }
 /* line 330, ../sass/_shop.scss */
 .product .product-hover {
-  background: #1e1e1e;
+  background: #000;
   border-radius: 3px;
   bottom: 0;
   color: #7f7f7f;
@@ -7468,7 +7468,7 @@ a.edit i:before {
 }
 /* line 601, ../sass/_shop.scss */
 .list .product .actions a:hover {
-  background: #1e1e1e;
+  background: #000;
   transition: all .2s linear;
 }
 /* line 605, ../sass/_shop.scss */
@@ -7680,8 +7680,8 @@ a.edit i:before {
 }
 /* line 800, ../sass/_shop.scss */
 .product-page .add-cart-form .number .regulator a:hover {
-  background-color: #1e1e1e;
-  background-color: rgba(30, 30, 30, 0.5);
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.5);
   transition: background-color .2s linear;
 }
 /* line 805, ../sass/_shop.scss */
@@ -7815,12 +7815,12 @@ a.edit i:before {
 }
 /* line 923, ../sass/_shop.scss */
 .product-page .col-md-7 .actions a path {
-  fill: #1e1e1e;
+  fill: #000;
   transition: all .2s linear;
 }
 /* line 927, ../sass/_shop.scss */
 .product-page .col-md-7 .actions a:hover {
-  background: #1e1e1e;
+  background: #000;
   transition: all .2s linear;
 }
 /* line 931, ../sass/_shop.scss */
@@ -7989,7 +7989,7 @@ a.edit i:before {
 }
 /* line 1074, ../sass/_shop.scss */
 .product-bottom .related-products ul li .button-box .wishlist:hover svg path {
-  fill: #1e1e1e;
+  fill: #000;
   transition: fill .2s linear;
 }
 
@@ -8034,8 +8034,8 @@ a.edit i:before {
 /* line 1121, ../sass/_shop.scss */
 .toolbar .grid-list .grid,
 .toolbar .grid-list .list {
-  background-color: #1e1e1e;
-  background-color: rgba(30, 30, 30, 0.7);
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 2px;
   display: block;
   float: left;
@@ -8062,7 +8062,7 @@ a.edit i:before {
 /* line 1146, ../sass/_shop.scss */
 .toolbar .grid-list a.grid:hover,
 .toolbar .grid-list a.list:hover {
-  background: #1e1e1e;
+  background: #000;
   transition: background .2s linear;
 }
 /* line 1152, ../sass/_shop.scss */
@@ -8072,8 +8072,8 @@ a.edit i:before {
 }
 /* line 1156, ../sass/_shop.scss */
 .toolbar .sort-catalog .dropdown-toggle {
-  background-color: #1e1e1e;
-  background-color: rgba(30, 30, 30, 0.7);
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
   color: #ccc;
   z-index: 26;
 }
@@ -8087,8 +8087,8 @@ a.edit i:before {
 }
 /* line 1172, ../sass/_shop.scss */
 .toolbar .up-down {
-  background-color: #1e1e1e;
-  background-color: rgba(30, 30, 30, 0.7);
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   box-shadow: none;
@@ -11838,7 +11838,7 @@ div.jp-audio ul.jp-controls {
 /* line 146, ../sass/elements/_respond.scss */
 .respond .description.bg-primary:before,
 .respond .description.border-primary:before {
-  border-top-color: #037ac5;
+  border-top-color: #009344;
 }
 /* line 151, ../sass/elements/_respond.scss */
 .respond.respond-blockquote.border .border-primary blockquote:before, .respond.respond-blockquote.border .border-primary blockquote:after {
@@ -12224,7 +12224,7 @@ a.big-icon:hover {
 }
 /* line 41, ../sass/elements/_social-feed.scss */
 .social-feed .post.bg-primary {
-  border-color: #037ac5;
+  border-color: #009344;
 }
 /* line 44, ../sass/elements/_social-feed.scss */
 .social-feed .post.number {
@@ -12470,7 +12470,7 @@ a.big-icon:hover {
 
 /* line 264, ../sass/elements/_social-feed.scss */
 .social-feed .bg-primary .buttons .btn {
-  color: #037ac5;
+  color: #009344;
 }
 
 /* line 267, ../sass/elements/_social-feed.scss */
@@ -13288,17 +13288,17 @@ a.big-icon:hover {
 /* line 152, ../sass/elements/_timeline.scss */
 .timeline .post .timeline-content.bg-primary,
 .timeline .post .timeline-content.border-primary {
-  border-color: #037ac5;
+  border-color: #009344;
 }
 /* line 156, ../sass/elements/_timeline.scss */
 .timeline .post .timeline-content.bg-primary:before,
 .timeline .post .timeline-content.border-primary:before {
-  border-left-color: #037ac5;
+  border-left-color: #009344;
 }
 /* line 160, ../sass/elements/_timeline.scss */
 .timeline .post:nth-child(even) .timeline-content.bg-primary:before, .timeline .post:nth-child(even) .timeline-content.border-primary:before {
   border: 15px solid transparent;
-  border-right-color: #037ac5;
+  border-right-color: #009344;
 }
 
 /******************************************************************************
@@ -13901,7 +13901,7 @@ a.big-icon:hover {
 
   /* line 246, ../sass/_responsive.scss */
   .header .header-wrapper .primary .navbar .btn-navbar .icon-bar {
-    background: #1e1e1e;
+    background: #000;
     box-shadow: none;
     border-radius: 0;
     height: 3px;
@@ -13997,7 +13997,7 @@ a.big-icon:hover {
 
   /* line 322, ../sass/_responsive.scss */
   .header .header-wrapper .primary .navbar .navbar-collapse .nav .open-sub span {
-    background: #1e1e1e;
+    background: #000;
     display: block;
     height: 2px;
     margin: 17px 0 0 15px;
@@ -14068,8 +14068,8 @@ a.big-icon:hover {
   /* line 378, ../sass/_responsive.scss */
   .header .header-wrapper .primary .navbar .navbar-collapse .nav > .parent.active > a,
   .header .header-wrapper .primary .navbar .navbar-collapse .nav > .parent.active:hover > a {
-    background: #1e1e1e;
-    border-color: #1e1e1e;
+    background: #000;
+    border-color: #000;
     color: #fff;
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
@@ -15229,7 +15229,7 @@ a.big-icon:hover {
   .accordion-tab > li.active:hover > a,
   .products-tab .accordion-tab > li.active > a,
   .products-tab .accordion-tab > li.active:hover > a {
-    background-color: #1e1e1e;
+    background-color: #000;
     border: 0 none;
     border-radius: 0;
     color: #fff !important;
@@ -15272,7 +15272,7 @@ a.big-icon:hover {
   .accordion-tab > li > a .open-sub:after,
   .products-tab .accordion-tab > li > a .open-sub:before,
   .products-tab .accordion-tab > li > a .open-sub:after {
-    background: #1e1e1e;
+    background: #000;
     content: "";
     display: block;
     height: 2px;
